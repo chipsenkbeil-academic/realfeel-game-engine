@@ -1,0 +1,29 @@
+;Do not delete this file!
+
+[Account]
+Name=test
+Password=test
+Enable=1
+
+[Address]
+IP=127.0.0.1
+Port=2000
+
+[Settings]
+StrokeText=1
+Music=1
+Sound=0
+HP_Bars=1
+NPC_HP_Bars=1
+NPC_Names=1
+Audio = 200
+Tempo = 1.0
+
+[FilePaths]
+DLLs= \DLLs\
+GFX= \Gfx\
+LOGS= \logs\
+MAPS= \maps\
+MUSIC = \music\
+SOUND = \sound\
+GUI = \Gfx\GUI\

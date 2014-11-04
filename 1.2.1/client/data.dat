@@ -1,0 +1,39 @@
+;Do not delete this file!
+
+[Account]
+Name=test
+Password=test
+Enable=1
+
+[Address]
+IP=127.0.0.1
+Port=2000
+
+[Settings]
+StrokeText=1
+Music=1
+Sound=1
+NPC_Names=1
+Audio=-6311
+Tempo=10000
+
+[FilePaths]
+DLLs= \DLLs\
+GFX= \Gfx\
+LOGS= \logs\
+MAPS= \maps\
+MUSIC = \music\
+SOUND = \sound\
+GUI = \Gfx\GUI\
+
+;Setting the style to FIXED chooses the target music to play
+;Setting the style to RANDOM chooses a piece of music from the pointer if the pointer is a folder
+;Setting the style to OFF quits the music player
+;Setting the playmode to NORMAL runs the song at normal speed
+;Setting the playmode to SLOW runs the song at a slower speed
+;Setting the playmode to FAST runs the song at a faster speed
+[IntroMusic]
+INTRO_POINTER = \music\
+INTRO_STYLE = RANDOM
+INTRO_PLAYMODE = NORMAL
+INTRO_PLAYLOOP = TRUE
